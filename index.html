@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IoT Healthcare Monitoring</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header id="home">
+
+    <h1>IoT Healthcare Monitoring</h1>
+
+    <p>Smart monitoring for patients with metabolic syndrome</p>
+
+</header>
+
+
+<nav>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#sensors">Sensors</a></li>
+        <li><a href="#alerts">Alerts</a></li>
+        <li><a href="#patient">Patient</a></li>
+    </ul>
+
+</nav>
+
+
+<main>
+
+    <!-- INTRODUCTION -->
+
+    <section class="intro">
+
+        <h2>About the System</h2>
+
+        <p>
+            This IoT healthcare system helps doctors monitor patients
+            with metabolic syndrome. Medical sensors collect important
+            health information and send it to the monitoring system.
+        </p>
+
+        <p>
+            The dashboard displays the patient's current health
+            parameters and alerts the doctor when a measurement
+            becomes abnormal.
+        </p>
+
+    </section>
+
+
+    <!-- PATIENT INFORMATION -->
+
+    <section id="patient" class="patient">
+
+        <h2>Patient Information</h2>
+
+        <div class="patient-box">
+
+            <p><strong>Name:</strong> Alex Johnson</p>
+
+            <p><strong>Age:</strong> 45</p>
+
+            <p><strong>Patient ID:</strong> #10245</p>
+
+            <p>
+                <strong>Monitoring status:</strong>
+                <span id="status">Active</span>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- DASHBOARD -->
+
+    <section id="dashboard">
+
+        <h2>Patient Dashboard</h2>
+
+        <div class="dashboard">
+
+            <article class="sensor-card">
+
+                <h3>Body Temperature</h3>
+
+                <p class="value">36.7 °C</p>
+
+                <p class="normal">Normal</p>
+
+            </article>
+
+
+            <article class="sensor-card">
+
+                <h3>Blood Glucose</h3>
+
+                <p class="value">5.4 mmol/L</p>
+
+                <p class="normal">Normal</p>
+
+            </article>
+
+
+            <article class="sensor-card">
+
+                <h3>Heart Rate</h3>
+
+                <p class="value">72 BPM</p>
+
+                <p class="normal">Normal</p>
+
+            </article>
+
+
+            <article class="sensor-card">
+
+                <h3>Blood Pressure</h3>
+
+                <p class="value">120/80 mmHg</p>
+
+                <p class="normal">Normal</p>
+
+            </article>
+
+
+            <article class="sensor-card">
+
+                <h3>ECG</h3>
+
+                <p class="value">Normal</p>
+
+                <p class="normal">Stable</p>
+
+            </article>
+
+
+            <article class="sensor-card">
+
+                <h3>Oxygen Level</h3>
+
+                <p class="value">98%</p>
+
+                <p class="normal">Normal</p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- SENSOR INFORMATION -->
+
+    <section id="sensors">
+
+        <h2>Medical Sensors</h2>
+
+        <div class="sensor-list">
+
+            <article>
+
+                <h3>Glucose Sensor</h3>
+
+                <p>
+                    Measures the patient's blood glucose level.
+                </p>
+
+                <p><strong>Value:</strong> 5.4 mmol/L</p>
+
+                <p><strong>Status:</strong> Normal</p>
+
+            </article>
+
+
+            <article>
+
+                <h3>Heart Rate Sensor</h3>
+
+                <p>
+                    Measures the patient's heart rate.
+                </p>
+
+                <p><strong>Value:</strong> 72 BPM</p>
+
+                <p><strong>Status:</strong> Normal</p>
+
+            </article>
+
+
+            <article>
+
+                <h3>Blood Pressure Sensor</h3>
+
+                <p>
+                    Measures systolic and diastolic blood pressure.
+                </p>
+
+                <p><strong>Value:</strong> 120/80 mmHg</p>
+
+                <p><strong>Status:</strong> Normal</p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ALERTS -->
+
+    <section id="alerts" class="alerts">
+
+        <h2>Health Alerts</h2>
+
+        <div class="alert normal-alert">
+
+            <h3>Normal Measurement</h3>
+
+            <p>
+                Heart rate: 72 BPM. The measurement is within
+                the normal range.
+            </p>
+
+        </div>
+
+
+        <div class="alert warning-alert">
+
+            <h3>Abnormal Measurement</h3>
+
+            <p>
+                Example: Blood glucose: 9.2 mmol/L.
+                The value is above the normal range.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- SIMPLE TABLE -->
+
+    <section>
+
+        <h2>Health Parameter Summary</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Parameter</th>
+                    <th>Value</th>
+                    <th>Unit</th>
+                    <th>Status</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Temperature</td>
+                    <td>36.7</td>
+                    <td>°C</td>
+                    <td>Normal</td>
+                </tr>
+
+                <tr>
+                    <td>Blood Glucose</td>
+                    <td>5.4</td>
+                    <td>mmol/L</td>
+                    <td>Normal</td>
+                </tr>
+
+                <tr>
+                    <td>Heart Rate</td>
+                    <td>72</td>
+                    <td>BPM</td>
+                    <td>Normal</td>
+                </tr>
+
+                <tr>
+                    <td>Blood Pressure</td>
+                    <td>120/80</td>
+                    <td>mmHg</td>
+                    <td>Normal</td>
+                </tr>
+
+                <tr>
+                    <td>ECG</td>
+                    <td>Normal</td>
+                    <td>-</td>
+                    <td>Stable</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact">
+
+        <h2>Contact Doctor</h2>
+
+        <form>
+
+            <label for="name">Patient Name:</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter patient name"
+            >
+
+
+            <label for="message">Message:</label>
+
+            <textarea
+                id="message"
+                placeholder="Enter your message"
+            ></textarea>
+
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>IoT Healthcare Monitoring System</p>
+
+    <p>Smart healthcare through connected medical devices</p>
+
+    <p>Contact: healthcare@example.com</p>
+
+</footer>
+
+
+</body>
+</html>
